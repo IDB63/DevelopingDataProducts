@@ -1,0 +1,25 @@
+---
+title: "Week 2 project"
+author: "Brooks Farmer"
+date: "2022-09-07"
+output: html_document
+---
+### September 7th, 2022
+``` {r, echo=FALSE}
+library(leaflet)
+my_map <- leaflet() %>% 
+        addTiles()
+my_map = addMarkers(my_map, lat=29.4260,lng=-98.4861,popup="Remember the Alamo!")
+        
+my_map
+```
+
+
+
+
+
+
+
+
+
+
